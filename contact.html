@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Abdellatif Nagy — Data Analyst</title>
+  <meta name="description" content="Contact Abdellatif Nagy for data analyst roles or freelance Power BI and data projects.">
+  <meta name="author" content="Abdellatif Nagy">
+  <meta name="theme-color" content="#0a1020">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact | Abdellatif Nagy — Data Analyst">
+  <meta property="og:description" content="Contact Abdellatif Nagy for data analyst roles or freelance Power BI and data projects.">
+  <meta property="og:url" content="https://abdellatif-nagy.github.io/contact.html">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="contact">
+  <header id="site-header"></header>
+
+  <main id="main">
+    <section class="container page-head">
+      <div class="eyebrow" data-i18n="ct.eyebrow">Contact</div>
+      <h1 data-i18n="ct.title">Let's work together</h1>
+      <p class="section-lead" data-i18n="ct.lead"></p>
+    </section>
+    <section class="container" style="padding-bottom:64px">
+      <div class="contact-grid">
+        <div>
+          <h2 style="font-size:1.2rem" data-i18n="ct.direct">Direct contact</h2>
+          <div id="contact-items"></div>
+          <a class="btn btn-ghost" style="margin-top:8px" href="assets/Abdellatif-Nagy-CV.pdf" data-cv download data-i18n="home.cta2">Download CV</a>
+        </div>
+        <div class="card">
+          <h2 style="font-size:1.2rem" data-i18n="ct.formTitle">Send a message</h2>
+          <form class="form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <div class="form-row">
+              <div class="field"><label for="f-name" data-i18n="form.name">Your name</label><input id="f-name" name="name" type="text" required autocomplete="name"></div>
+              <div class="field"><label for="f-email" data-i18n="form.email">Your email</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+            </div>
+            <div class="field"><label for="f-type" data-i18n="form.type">I'm interested in</label>
+              <select id="f-type" name="type">
+                <option value="job" data-i18n="form.opt.job">A full-time role</option>
+                <option value="dashboard" data-i18n="form.opt.dashboard">A Power BI / Looker dashboard</option>
+                <option value="analysis" data-i18n="form.opt.analysis">Data analysis / cleaning</option>
+                <option value="automation" data-i18n="form.opt.automation">Reporting automation</option>
+                <option value="other" data-i18n="form.opt.other">Something else</option>
+              </select>
+            </div>
+            <div class="field"><label for="f-msg" data-i18n="form.message">Message</label>
+              <textarea id="f-msg" name="message" required data-i18n-placeholder="form.placeholder"></textarea></div>
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+            <button class="btn btn-primary" type="submit" data-i18n="form.send">Send message</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
