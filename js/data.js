@@ -52,8 +52,8 @@ const EXPERIENCE = [
     place: { en: "Remote", ar: "عن بُعد" },
     date: { en: "03/2024 – Present", ar: "03/2024 – حتى الآن" },
     desc: {
-      en: "Delivered 30+ data analysis and visualization projects with Python, SQL and Power BI, including high-impact work for Saudi Airlines and the Ministries of Environment and Culture. Cut reporting time by 40% and used statistical modeling to guide strategic decisions.",
-      ar: "تنفيذ أكثر من 30 مشروعًا لتحليل وتصوير البيانات باستخدام Python وSQL وPower BI، من بينها أعمال مؤثرة للخطوط الجوية السعودية ووزارتي البيئة والثقافة. تقليل وقت إعداد التقارير بنسبة 40% واستخدام النمذجة الإحصائية لدعم القرارات الاستراتيجية.",
+      en: "Delivered 30+ data analysis and visualization projects with Python, SQL and Power BI, including high-impact work for Saudi Airlines and the Saudi Ministries of Environment and Culture. Cut reporting time by 40% and used statistical modeling to guide strategic decisions.",
+      ar: "تنفيذ أكثر من 30 مشروعًا لتحليل وتصوير البيانات باستخدام Python وSQL وPower BI، من بينها أعمال مؤثرة للخطوط الجوية السعودية ووزارتي البيئة والثقافة في المملكة العربية السعودية. تقليل وقت إعداد التقارير بنسبة 40% واستخدام النمذجة الإحصائية لدعم القرارات الاستراتيجية.",
     },
     tags: ["Python", "SQL", "Power BI", "Statistics"],
   },
@@ -135,7 +135,7 @@ const PROJECTS = [
       ar: ["متوسط تأخر الإقلاع وعلاقته برضا الركاب", "العوامل الرئيسية المؤثرة في الرضا وكيفية إبقائه فوق 6.1", "الأنماط الموسمية للتأخيرات", "الإشراف حسب الموقع مقابل الإشراف حسب حجم الرحلات", "التنبؤ بالتأخير وتحديد أقل 3 رحلات مخاطرة"],
     },
     links: [
-      { label: { en: "Open dashboard", ar: "فتح اللوحة" }, url: "https://app.powerbi.com/reportEmbed?reportId=a7daf580-4209-4085-a529-0f1b967a719d&autoAuth=true&ctid=df8679cd-a80e-45d8-99ac-c83ed7ff95a0" },
+      { label: { en: "Open dashboard", ar: "فتح اللوحة" }, url: "https://app.powerbi.com/view?r=eyJrIjoiZWJlMzk5NmMtNWMxMi00NjQ2LTgxODktOTJmNzQ2NzM5ZDM0IiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9" },
     ],
   },
   {
